@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>J.A.R.V.I.S & RIDA — M SHAHBAN ALI</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+ --cyan:#00ffcc;
+ --pink:#ff176b;
+ --bg:#02050b;
+}
+
+body{
+ min-height:100vh;
+ background:
+ radial-gradient(circle at 50% 20%,#06333a 0,#02050b 45%,#000 100%);
+ color:var(--cyan);
+ font-family:Consolas,"Courier New",monospace;
+ overflow-x:hidden;
+}
+
+#matrix{
+ position:fixed;
+ inset:0;
+ width:100%;
+ height:100%;
+ z-index:-2;
+ opacity:.3;
+}
+
+body:after{
+ content:"";
+ position:fixed;
+ inset:0;
+ pointer-events:none;
+ z-index:10;
+ background:repeating-linear-gradient(
+  0deg,
+  transparent 0 3px,
+  rgba(0,255,204,.025
